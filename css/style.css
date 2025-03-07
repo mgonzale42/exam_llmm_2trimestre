@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Street;
+    src: url(../Font/street.otf);
+}
+
+:root {
+    font-family: Street;
+    src: url(../Font/street.otf);
+    text-align: center;
+}
+
+h1 {
+    color: crimson;
+    font-size: 46px;
+}
+
+table {
+    width: 600px;
+    height: 600px;
+    border: 10px outset rgb(237, 175, 5);
+    background-color: black;
+    border-radius: 10px;
+}
+
+.cabecera {
+    background-image: url(../img/fondocabecera.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    opacity: 0.5;
+}
+
+td {
+    width: 40px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url(../img/fondo2.jpg);
+}
